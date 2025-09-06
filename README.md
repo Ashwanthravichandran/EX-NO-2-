@@ -1,15 +1,10 @@
-## EX. NO:2 IMPLEMENTATION OF PLAYFAIR CIPHER
+# EX. NO:2 IMPLEMENTATION OF PLAYFAIR CIPHER
 
- 
-
-## AIM:
- 
-
- 
+# AIM:
 
 To write a C program to implement the Playfair Substitution technique.
 
-## DESCRIPTION:
+# DESCRIPTION:
 
 The Playfair cipher starts with creating a key table. The key table is a 5×5 grid of letters that will act as the key for encrypting your plaintext. Each of the 25 letters must be unique and one letter of the alphabet is omitted from the table (as there are 25 spots and 26 letters in the alphabet).
 
@@ -18,12 +13,12 @@ To encrypt a message, one would break the message into digrams (groups of 2 lett
 2.	If the letters appear on the same row of your table, replace them with the letters to their immediate right respectively
 3.	If the letters appear on the same column of your table, replace them with the letters immediately below respectively
 4.	If the letters are not on the same row or column, replace them with the letters on the same row respectively but at the other pair of corners of the rectangle defined by the original pair.
-## EXAMPLE:
+# EXAMPLE:
 ![image](https://github.com/Hemamanigandan/EX-NO-2-/assets/149653568/e6858d4f-b122-42ba-acdb-db18ec2e9675)
 
  
 
-## ALGORITHM:
+# ALGORITHM:
 
 STEP-1: Read the plain text from the user.
 STEP-2: Read the keyword from the user.
@@ -34,7 +29,7 @@ STEP-5: Display the obtained cipher text.
 
 
 
-Program:
+# Program:
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -255,7 +250,10 @@ int main()
 
 
 
-Output:
+# Output:
 
 <img width="419" height="307" alt="2" src="https://github.com/user-attachments/assets/5aedd96f-dfe6-4b57-b434-b82d128a47ab" />
 
+# Result:
+The program implementing the Play fair cipher for encryption and decryption has been successfully 
+executed, and the results have been verified
